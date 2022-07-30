@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="11.757887">
+<testcase classname="Hotel Booking In Adactin Application" name="Login Page" time="7.524358">
+<system-out><![CDATA[Given user Launch The Application...........................................passed
+When user Enter The Username In Username Filed..............................passed
+And user Enter The Password In Password Field...............................passed
+Then user Click The Login Button And It Navigates To Search Hotel Page......passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking In Adactin Application" name="Search Hotel" time="1.982929">
+<system-out><![CDATA[Given user Select The Location..............................................passed
+When user Select The Hotel Name.............................................passed
+And user Select The Room Type...............................................passed
+And user Select The Number Of Rooms.........................................passed
+And user Enter The Checkin Date.............................................passed
+And user Enter The Checkout Date............................................passed
+And user Select The Number Of Adults........................................passed
+Then Click the Submit Button And It Navigates To Select Hotel Page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking In Adactin Application" name="Select Hotel" time="0.69436">
+<system-out><![CDATA[Given Click The Checkbox....................................................passed
+Then Click Ok And It Navigates To Book Hotel Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking In Adactin Application" name="Booking Hotel" time="1.55624">
+<system-out><![CDATA[Given user Enter The First Name.............................................passed
+When user Enter The Last Name...............................................passed
+And user Enter The Address..................................................passed
+And user Enter The Credit Card Number.......................................passed
+And user Select The Card Type...............................................passed
+And user Select The Month...................................................passed
+And user Select The Year....................................................passed
+And user Enter The Cvv......................................................passed
+Then Click the Submit Button................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
